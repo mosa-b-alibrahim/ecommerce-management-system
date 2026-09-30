@@ -1,0 +1,35 @@
+# Glossary for Beginners
+
+- **JDK**: tools needed to develop/compile Java applications.
+- **JVM**: runtime that executes Java bytecode.
+- **Maven**: Java build/dependency management tool used by this project.
+- **Dependency**: external library/framework the application uses.
+- **API**: interface through which software communicates.
+- **REST**: common HTTP-based API design style around resources and standard methods.
+- **JSON**: text data format commonly used in API requests/responses.
+- **DTO**: Data Transfer Object; API-facing data shape separated from persistence entities.
+- **Entity**: object mapped to persistent database data in JPA.
+- **ORM**: mapping between objects and relational database structures.
+- **JPA**: Java persistence specification/API.
+- **Hibernate**: common JPA implementation used by Spring applications.
+- **Repository**: data-access abstraction.
+- **Service**: layer where use cases/business rules commonly live.
+- **Dependency Injection**: dependencies are supplied to a component instead of the component constructing everything itself.
+- **Authentication**: proving identity.
+- **Authorization**: deciding permissions.
+- **JWT**: signed token format often used to carry authentication claims.
+- **RBAC**: Role-Based Access Control.
+- **Transaction**: group of database changes that succeed/fail as one logical unit.
+- **Concurrency**: multiple operations happening with overlapping time; important for stock.
+- **Unit Test**: tests a small unit of logic in isolation.
+- **Mock**: controlled test substitute for a dependency.
+- **Integration Test**: tests components working together, often including database/framework.
+- **E2E Test**: tests a user flow through the system.
+- **Testcontainers**: library that starts disposable real services such as PostgreSQL for tests.
+- **Docker Image**: packaged filesystem/config used to start containers.
+- **Container**: running isolated process created from an image.
+- **CI**: automated build/test checks on changes.
+- **CD**: automated or repeatable delivery/deployment process.
+- **Embedding**: numeric representation used for semantic similarity.
+- **Vector Search**: retrieves semantically similar items using embeddings.
+- **RAG**: Retrieval-Augmented Generation; retrieve relevant knowledge then give it to an LLM for a grounded answer.
